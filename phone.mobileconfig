@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>IKEv2</key>
+            <dict>
+                <key>AuthenticationMethod</key>
+                <string>Certificate</string>
+                <key>ChildSecurityAssociationParameters</key>
+                <dict>
+                    <key>DiffieHellmanGroup</key>
+                    <integer>20</integer>
+                    <key>EncryptionAlgorithm</key>
+                    <string>AES-256-GCM</string>
+                    <key>IntegrityAlgorithm</key>
+                    <string>SHA2-512</string>
+                    <key>LifeTimeInMinutes</key>
+                    <integer>1440</integer>
+                </dict>
+                <key>DeadPeerDetectionRate</key>
+                <string>Medium</string>
+                <key>DisableMOBIKE</key>
+                <integer>0</integer>
+                <key>DisableRedirect</key>
+                <integer>1</integer>
+                <key>EnableCertificateRevocationCheck</key>
+                <integer>0</integer>
+                <key>EnablePFS</key>
+                <true/>
+                <key>IKESecurityAssociationParameters</key>
+                <dict>
+                    <key>DiffieHellmanGroup</key>
+                    <integer>20</integer>
+                    <key>EncryptionAlgorithm</key>
+                    <string>AES-256-GCM</string>
+                    <key>IntegrityAlgorithm</key>
+                    <string>SHA2-512</string>
+                    <key>LifeTimeInMinutes</key>
+                    <integer>1440</integer>
+                </dict>
+                <key>LocalIdentifier</key>
+                <string>phone</string>
+                <key>PayloadCertificateUUID</key>
+                <string>B95B1BC4-5025-555C-BBC4-486648A34EBA</string>
+                <key>CertificateType</key>
+                <string>ECDSA384</string>
+                <key>ServerCertificateIssuerCommonName</key>
+                <string>167.71.238.44</string>
+                <key>RemoteAddress</key>
+                <string>167.71.238.44</string>
+                <key>RemoteIdentifier</key>
+                <string>167.71.238.44</string>
+                <key>UseConfigurationAttributeInternalIPSubnet</key>
+                <integer>0</integer>
+            </dict>
+            <key>IPv4</key>
+            <dict>
+                <key>OverridePrimary</key>
+                <integer>1</integer>
+            </dict>
+            <key>PayloadDescription</key>
+            <string>Configures VPN settings</string>
+            <key>PayloadDisplayName</key>
+            <string>algo</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.vpn.managed.5189A9AA-291C-5C45-B454-1C74828D7D98</string>
+            <key>PayloadType</key>
+            <string>com.apple.vpn.managed</string>
+            <key>PayloadUUID</key>
+            <string>5189A9AA-291C-5C45-B454-1C74828D7D98</string>
+            <key>PayloadVersion</key>
+            <real>1</real>
+            <key>Proxies</key>
+            <dict>
+                <key>HTTPEnable</key>
+                <integer>0</integer>
+                <key>HTTPSEnable</key>
+                <integer>0</integer>
+            </dict>
+            <key>UserDefinedName</key>
+            <string>AlgoVPN algo IKEv2</string>
+            <key>VPNType</key>
+            <string>IKEv2</string>
+        </dict>
+        <dict>
+            <key>Password</key>
+            <string>Wzigekcg</string>
+            <key>PayloadCertificateFileName</key>
+            <string>phone.p12</string>
+            <key>PayloadContent</key>
+            <data>
+            MIIEiQIBAzCCBE8GCSqGSIb3DQEHAaCCBEAEggQ8MIIEODCCAt8GCSqGSIb3DQEHBqCCAtAwggLM
+AgEAMIICxQYJKoZIhvcNAQcBMBwGCiqGSIb3DQEMAQYwDgQIeTl6X/B59WsCAggAgIICmC1KbhPV
+Vau8zpb7FxHC1itSCx2iDVC4shOQi9eRJ+GCL0AUwc/4o1T0EKzgs4zktalpvsXDIqB/d9uiFetV
+yNq0o0EGm/Y8v5iG0vj+CwuYzEx+KEuojEG1j1P1nmeYvnkBM0f1+AHR4YMM7Hy2lO9Mx5ykgTKm
+zzq5/+xvk15od6ge99IAlTaD7+4MvR5PleuIG3ZOK76zyJOF7WaeE2yGjUfWQMeZntkOksEOxKoa
+reM0U3Dc1lrI+7vI0A1+JegyMzQ1x5eTq94utCtJj1/ER9Sq9c4odilVofPS/3JvCG/sPrnhkcc3
+EPW0WHZrh3RzrDCzUmTGOWoIDvzwVHr/cFLFgwCBX1qTh0S11HNJ8M5JyrSPdoYHGUGxibVh4YGD
+nWlZ1utC6MyhuM0R+iBjrKD3plaK0H4bH8WUjWHABgUEofcC60CI7et/dhYUJgbuswBdbuVPvS3L
+d2MYj4cu5xrveqqVkjEs0ypfohq5/7eADnVTzvmUs34MzJSZd7iw//DHgZpeemli37vuVPIX4O3Y
+Cm3Z3pRPz+7giDE4/JkXGlHt9+eoIbiX33qL8F9kUFtlLUQLtdz6gvb7ggrv/dyx2p2jDaigA75I
+ujXQJP98WWEl65mTShy/3tKF1FGcbl19e/M7xMp7mFE/CHdgPy+QoT+DmpQmMANF3/7rjzffaaKd
+uYu/+iHvlbnP+jr10H7dSSE4bkjb6yoXLD8uvfyYDckCquR0wgGtqVBaw1XSykSELIhpLp0tHwpo
+EpJ9PbbK4gos16eeWzNvFbvn1CHZoyxOmNx+44KQ5VtT57P5e5Dg7HF7fClR8sV6WmydC+i+F9pn
+kOACwvNtsN9M5ocBbNh1skjriF0HP9wx5RUhj7mi4oEwggFRBgkqhkiG9w0BBwGgggFCBIIBPjCC
+ATowggE2BgsqhkiG9w0BDAoBAqCB5DCB4TAcBgoqhkiG9w0BDAEDMA4ECP8FEhsmG8H4AgIIAASB
+wKx4BpDgBPQbV+ERPCNl7LIAcyXQMHsrBnNLHIKOtqPjkvywGE0NAyFOziu4Gv5ndmgZB5yvrDAl
+4YK2fhDk38iI4HpjtsFEsvTIq9avFEr5pVQ2FRTORZPk884QWp2TpcNY+PV3S095AUx1+o4vjH/j
+Ta5pAX6eY2ZSmijmEo1ifgnzoPEYrVyC8kryGScsvYoK1btZXUiRRBLj16cs8buHgdlwc5vj0BWA
+gHD50dmA18pxKeuXxYMNEumQsgtfKDFAMBkGCSqGSIb3DQEJFDEMHgoAcABoAG8AbgBlMCMGCSqG
+SIb3DQEJFTEWBBQM6Y/eBqq3yUbuaZcZRQklHtUbSDAxMCEwCQYFKw4DAhoFAAQURFOYJ3tCAn0t
+IeCKy48s5uLPsQ4ECEaJHy5AryY0AgIIAA==
+            </data>
+            <key>PayloadDescription</key>
+            <string>Adds a PKCS#12-formatted certificate</string>
+            <key>PayloadDisplayName</key>
+            <string>algo</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.security.pkcs12.B95B1BC4-5025-555C-BBC4-486648A34EBA</string>
+            <key>PayloadType</key>
+            <string>com.apple.security.pkcs12</string>
+            <key>PayloadUUID</key>
+            <string>B95B1BC4-5025-555C-BBC4-486648A34EBA</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>PayloadCertificateFileName</key>
+            <string>ca.crt</string>
+            <key>PayloadContent</key>
+            <data>
+            LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUNBakNDQVlpZ0F3SUJBZ0lVT0dsbzlzTFlrMnY0dXlPZzN0SGJQRUliaXE0d0NnWUlLb1pJemowRUF3SXcKR0RFV01CUUdBMVVFQXd3Tk1UWTNMamN4TGpJek9DNDBOREFlRncweE9UQTRNVGt3TnpJMU5ETmFGdzB5T1RBNApNVFl3TnpJMU5ETmFNQmd4RmpBVUJnTlZCQU1NRFRFMk55NDNNUzR5TXpndU5EUXdkakFRQmdjcWhrak9QUUlCCkJnVXJnUVFBSWdOaUFBVFV5bmRKejFNYnJkMnpUWTU3ZTMvRHJmdkxYRWFBZ2NrUDVrSTZNZVV2L0RxcE5malQKUTVHUllTbmh6d3dRY2NLNzU1ZjVISjU1YzlVUjEvaHdTMldZWW5BVXN0UTR2VXE2Z0NLMVZQNWxOMVJDRS84SQpzRTV1cTRsNEVwSVErQ1NqZ1pJd2dZOHdIUVlEVlIwT0JCWUVGQkFGUkFBb3V1Q1B5YXdpWUFIb054elZreDlvCk1GTUdBMVVkSXdSTU1FcUFGQkFGUkFBb3V1Q1B5YXdpWUFIb054elZreDlvb1J5a0dqQVlNUll3RkFZRFZRUUQKREEweE5qY3VOekV1TWpNNExqUTBnaFE0YVdqMnd0aVRhL2k3STZEZTBkczhRaHVLcmpBTUJnTlZIUk1FQlRBRApBUUgvTUFzR0ExVWREd1FFQXdJQkJqQUtCZ2dxaGtqT1BRUURBZ05vQURCbEFqRUE2RmRyWXZiK1ZQYXZEekJhCnV5M0VtWThicXRqTjJJOWxSc244WmlzbmVnUFVXa0dWWHhnOU83Z0JZZ0Q0YzZDaUFqQXZIdldMMFkxVGoya3kKOE9xaTUxdS9kU2lqa2prM3g4czdzanM1ajVsNG1JajBEM0c4NmgyUTVJU2lhZTJzSEdVPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0t
+            </data>
+            <key>PayloadDescription</key>
+            <string>Adds a CA root certificate</string>
+            <key>PayloadDisplayName</key>
+            <string>algo</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.security.root.5C485047-A5B0-560E-A831-52652A8D0EF8</string>
+            <key>PayloadType</key>
+            <string>com.apple.security.root</string>
+            <key>PayloadUUID</key>
+            <string>5C485047-A5B0-560E-A831-52652A8D0EF8</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>AlgoVPN algo IKEv2</string>
+    <key>PayloadIdentifier</key>
+    <string>donut.local.E454AD83-F8E7-5D44-AE35-98E0578A8410</string>
+    <key>PayloadOrganization</key>
+	<string>AlgoVPN</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>E036CFC3-F304-5262-932D-84D1D4673C08</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
